@@ -12,7 +12,7 @@ function About() {
             
             <div className="article-content">
               <h3>ANDRÉ BOMFIM DA SILVA</h3>
-              <p class="section-title">ANDRÉ BOMFIM DA SILVA</p>
+              <p className="section-title">ANDRÉ BOMFIM DA SILVA</p>
 
                     <p><strong>Phone:</strong> +55 11 94965-2657</p>
 <p><strong>Email:</strong> andre.bomfim99@gmail.com</p>

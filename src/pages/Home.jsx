@@ -26,7 +26,7 @@ function Home() {
               <p>My name is André, and I'm from São Paulo, Brazil. In this article, I'd like to introduce myself, share a bit of my background, and explain why I created this website.</p>
               
               <figure>
-                <img src="/images/about/img01.jpg" alt="São Paulo cityscape" />
+                <img src="/images/img01.jpg" alt="São Paulo cityscape" />
                 <figcaption>São Paulo is one of the largest cities in the world.</figcaption>
               </figure>
 
