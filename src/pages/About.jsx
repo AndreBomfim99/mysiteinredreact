@@ -1,0 +1,162 @@
+import Sidebar from '../components/Sidebar';
+import './Home.css';
+
+function About() {
+  return (
+    <div className="page-container">
+      <main className="main-content container">
+        <div className="content">
+          <article className="main-article">
+            <h2>About me</h2>
+            <p className="article-meta">Published on July 10, 2025 by André</p>
+            
+            <div className="article-content">
+              <h3>Γειά σου!</h3>
+              <h3>Hello!</h3>
+              <p>My name is André, and I'm from São Paulo, Brazil. In this article, I'd like to introduce myself, share a bit of my background, and explain why I created this website.</p>
+                        <figure>
+                            <img src="img/img01.jpg" alt="SaoPaulo" style={{display: 'block', margin: '0 auto', width: '400px'}} />
+                            <figcaption>São Paulo is one of the largest cities in the world.</figcaption>
+                        </figure>
+
+                    <h3>A little about me</h3>
+
+                    <p>I've always been a curious person. Since childhood, I've had a strong desire to understand how and why things exist,
+                        how they work, and what's behind them. This curiosity applies to objects, people, and even the universe. I enjoy
+                        learning a bit about everything—from turning plastic bags into gasoline, to human psychology, to the origins of
+                        languages spoken by Paleolithic tribes.</p>
+
+                    <h3>My education</h3>
+
+                    <p>I hold a technical degree in Industrial Automation and Electronics from SENAI (Serviço Nacional de Aprendizagem
+                        Industrial), a Brazilian institution focused on industrial and technical education. You could compare it to a blend
+                        of Community Colleges and Trade Schools in the U.S., or Further Education colleges in the U.K., depending on the
+                        program type. SENAI offers free courses, technical diplomas, and even undergraduate degrees, all geared toward
+                        industry.</p>
+
+                    <figure>
+                            <img src="img/img02.jpg" alt="SENAI" style={{display: 'block', margin: '0 auto', width: '400px'}} />
+                            <figcaption>SENAI is one of the best educational institutions in Brazil.</figcaption>
+                    </figure>
+
+                    <p>During the course, I learned about electricity, electronics, programming, and above all—my true passion: robotics. I
+                        learned to program in C, C++, and even Assembly, as well as industry-specific languages like SCADA and Ladder Logic.
+                        Working with PLCs helped broaden my understanding of programming logic. I also had the opportunity to develop
+                        embedded systems using microcontrollers for machine control, monitoring, and robotics.</p>
+                    <p>I studied pneumatic and hydraulic systems as well—fields that require close attention to detail, as mistakes can lead
+                        to serious consequences. Another subject I loved was power electronics and energy systems. Gaining this knowledge
+                        felt liberating because it opened doors beyond software—I could also work on energy distribution systems.</p>
+                    <p>Besides robotics and technology, I've always had a deep interest in architecture and civil engineering. That led me
+                        to pursue a Technical Degree in Building Construction from ETEC, a public technical school in São Paulo, between
+                        2013 and 2015.</p>
+                    <p>This program prepared me for various stages of construction projects—from planning and design to supervision and
+                        quality control. Between 2017 and 2020, I completed a college-level program at FATEC (a public university of
+                        technology), majoring in Highway Engineering Technology.</p>
+                    <p>That course qualified me to support and supervise road construction, maintenance, and management. I learned to run
+                        field and lab tests on soils, concrete, and asphalt, and implement productivity improvements in heavy machinery and
+                        infrastructure projects. Around that time, I also took a course in automotive mechanics so I could repair my car
+                        without relying too much on a mechanic.</p>
+                    <p>Currently, I'm pursuing a Bachelor's degree in Computer Engineering at UNIVESP, a public virtual university in São
+                        Paulo. I'm really enjoying it—it covers subjects I've always been passionate about. I started with foundational
+                        topics like algorithms and computer programming, and moved into more advanced areas like Object-Oriented
+                        Programming, Data Structures, Software Engineering, and Algorithm Design and Analysis.</p>
+                    
+                    <figure>
+                            <img src="img/img03.jpg" alt="UNIVESP" style={{display: 'block', margin: '0 auto', width: '400px'}} />
+                            <figcaption>UNIVESP is a public university with an impressive infrastructure to deliver its courses.</figcaption>
+                    </figure>
+                    
+                    <p>I'll soon be diving into topics like Hardware Design, Databases, Web and Mobile Development, Human-Computer
+                        Interaction, Infrastructure, and Scalable Computing. I've also studied Embedded Systems, IoT Communication
+                        Protocols, Data Ingestion and Analysis Platforms, Smart Cities, Automation, and Compilers.</p>
+                    
+                    <h3>My career journey</h3>
+
+                    <p>My career path has been diverse, but my technical journey began around 2006. My background in automation allowed me
+                        to work for major telecom companies, which I enjoyed because it exposed me to large-scale communication
+                        networks—very different from the simplified versions taught in class.</p>
+                    <p>Later, I broadened my experience with internships in small companies across energy, home automation, communications,
+                        games (briefly), and even television—always doing electronics and automation-related work. These were short but
+                        enriching experiences.</p>
+                    <p>Around 2011–2012, the tech job market was struggling in Brazil, while construction was booming. Out of necessity, I
+                        transitioned to civil construction. That's when I pursued the Technical Degree in Building Construction I mentioned
+                        earlier. A construction technician supports engineers and architects with planning, project development, budgeting,
+                        quality control, and team coordination. Based on my research, the closest equivalents abroad would be "Construction
+                        Technician" or "Construction Manager Assistant" in the U.S., and "Site Technician" or "Building Technician" in the
+                        U.K.</p>
+
+
+                    <figure>
+                            <img src="img/img04.jpg" alt="Engineering" style={{display: 'block', margin: '0 auto', width: '400px'}} />
+                            <figcaption>Structural engineering is one of my greatest passions.</figcaption>
+                    </figure>
+
+
+                    <p>From there, I began working in the field. One of my jobs was at a structural engineering office using BIM tools. I
+                        fell in love with structural calculations and simulations. It sparked an internal dilemma because I had just shifted
+                        careers and already missed programming—but I kept going.</p>
+                    <p>In 2014–2015, Brazil faced a major economic and political crisis, and construction jobs started disappearing. I left
+                        the engineering firm and started working independently as a handyman—someone who does a bit of everything. I relied
+                        on my construction knowledge to keep things going.</p>
+                    <p>By 2017, I decided it was time to pursue a bachelor's degree in the construction field. I was torn between
+                        Architecture and Civil Engineering, but chose the latter due to its better earning potential.</p>
+                    <p>In 2020, the economy improved slightly, and I landed an internship at a major construction company. I acted as a site
+                        supervisor, overseeing progress and budgets. It was an enriching experience, and I even developed an interest in
+                        finance. Unfortunately, when the pandemic hit, I was let go due to my intern status.</p>
+                    <p>Soon after, I joined a multinational engineering and consulting firm. I worked on lab reports for asphalt and
+                        concrete tests for SABESP (the largest sanitation company in Latin America) and other clients. I learned a lot about
+                        road engineering during this time.</p>
+                    <p>Then in 2021, I received a completely different job offer—from one of Brazil's largest private universities. I was
+                        invited to join the financial engineering department—an area I had never heard of before. It turned out to be the
+                        most comfortable and engaging workplace I've experienced.</p>
+                    <p>There, I continued supporting SABESP, but in a different department—analyzing, researching, and correcting the
+                        pricing of materials used in public contracts. I learned a lot about pricing strategies and finally got to apply one
+                        of my favorite subjects: statistics. With guidance from a team of economists, I learned how to build forecasts and
+                        pricing models.</p>
+                    
+                    <figure>
+                            <img src="img/img05.jpg" alt="FGV" style={{display: 'block', margin: '0 auto', width: '400px'}} />
+                            <figcaption>FGV is highly respected for its economic studies, which influence public policies at the federal, state, and municipal levels.</figcaption>
+                    </figure>
+
+                    <p>Later on, we also began working on federal government projects, including employment trend studies. Our data was used
+                        by city, state, and national agencies to guide public policy. It was deeply rewarding to know my work contributed to
+                        something meaningful.</p>
+                    <p>That was the beginning of my interest in data—something I hadn't appreciated fully until then. Working with massive
+                        government datasets gave me the perfect opportunity to dive in. Few organizations work with databases of that size.
+                        To better contribute, I decided to pursue a technology-related degree—returning to the field I had always loved.</p>
+                    <p>So I enrolled in Computer Engineering—a degree I had long dreamed of. It was the right choice. However, due to public
+                        university rules in Brazil, I had to leave my FATEC program because students can only be enrolled in one public
+                        institution at a time. I do hope to return and finish it one day.</p>
+                    <p>Thanks to my background in Computer Engineering, I landed an internship at one of the largest tech companies in Latin
+                        America. I initially aimed to work in frontend or backend development, but my previous experience pointed me toward
+                        data—and it was the right fit. I excelled in my role and received great feedback for my performance.</p>
+                    <h3>Why I built this site</h3>
+                    <p>I created this site mainly as a way to share my knowledge. I've accumulated a lot over the years and wanted an outlet
+                        for it. As I began planning the site, I realized it could also serve as a space to practice and document what I
+                        know.</p>
+                    <p>I have countless notes, summaries, and spreadsheets—but they're not always accessible, especially when I'm traveling.
+                        This website brings it all together in one organized, practical place—now accessible to both me and you, wherever we
+                        are.</p>
+                    <p>It also serves as a professional portfolio. My career path is not easy to explain, as I've explored many fields and
+                        interests over the years. What started as a simple HTML page evolved into a more robust project.</p>
+                    <p>I made a deliberate choice not to use frameworks, ChatGPT, or any other shortcuts. I wanted to code everything by
+                        hand, to truly face the challenges of building a website and grow from the experience. Everything was going
+                        well, until I reached the design phase.</p>
+                    <p>I couldn't find a design that satisfied me. I browsed countless websites, looking for inspiration. One day, while
+                        struggling with a CSS card design, I asked ChatGPT for help with a warm color scheme. It responded with a suggestion
+                        titled "My Site in Red", and that's how this site got its name.</p>
+                    <p>At first, I'm going to build it in the simplest way possible kind of like a rough draft, nothing fancy. I think it's counterproductive to start off using advanced tools and technologies. I want to experiment a lot, see what works, what I like best. But down the line, I do plan to give it a more professional structure.</p>
+                    <p>Actually, I've already started doing that, you can check it out on my GitHub. I'm writing the frontend with React and Node, and the backend with Spring Boot and MySQL. But the full implementation will come a bit later.</p>
+                    <p>Thank you for reading all the way through. I hope this site is useful to you in some way.</p>
+            </div>
+          </article>
+        </div>
+
+        <Sidebar />
+      </main>
+    </div>
+  );
+}
+
+export default About;
