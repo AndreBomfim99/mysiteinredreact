@@ -15,7 +15,7 @@ function About() {
               <h3>Hello!</h3>
               <p>My name is André, and I'm from São Paulo, Brazil. In this article, I'd like to introduce myself, share a bit of my background, and explain why I created this website.</p>
                         <figure>
-                            <img src="img/img01.jpg" alt="SaoPaulo" style={{display: 'block', margin: '0 auto', width: '400px'}} />
+                            <img src="images/aboutme/img01.jpg" alt="SaoPaulo" style={{display: 'block', margin: '0 auto', width: '400px'}} />
                             <figcaption>São Paulo is one of the largest cities in the world.</figcaption>
                         </figure>
 
@@ -35,7 +35,7 @@ function About() {
                         industry.</p>
 
                     <figure>
-                            <img src="img/img02.jpg" alt="SENAI" style={{display: 'block', margin: '0 auto', width: '400px'}} />
+                            <img src="images/aboutme/img02.jpg" alt="SENAI" style={{display: 'block', margin: '0 auto', width: '400px'}} />
                             <figcaption>SENAI is one of the best educational institutions in Brazil.</figcaption>
                     </figure>
 
@@ -62,7 +62,7 @@ function About() {
                         Programming, Data Structures, Software Engineering, and Algorithm Design and Analysis.</p>
                     
                     <figure>
-                            <img src="img/img03.jpg" alt="UNIVESP" style={{display: 'block', margin: '0 auto', width: '400px'}} />
+                            <img src="images/aboutme/img03.jpg" alt="UNIVESP" style={{display: 'block', margin: '0 auto', width: '400px'}} />
                             <figcaption>UNIVESP is a public university with an impressive infrastructure to deliver its courses.</figcaption>
                     </figure>
                     
@@ -87,7 +87,7 @@ function About() {
 
 
                     <figure>
-                            <img src="img/img04.jpg" alt="Engineering" style={{display: 'block', margin: '0 auto', width: '400px'}} />
+                            <img src="images/aboutme/img05.jpg" alt="Engineering" style={{display: 'block', margin: '0 auto', width: '400px'}} />
                             <figcaption>Structural engineering is one of my greatest passions.</figcaption>
                     </figure>
 
@@ -115,7 +115,7 @@ function About() {
                         pricing models.</p>
                     
                     <figure>
-                            <img src="img/img05.jpg" alt="FGV" style={{display: 'block', margin: '0 auto', width: '400px'}} />
+                            <img src="images/img05.jpg" alt="FGV" style={{display: 'block', margin: '0 auto', width: '400px'}} />
                             <figcaption>FGV is highly respected for its economic studies, which influence public policies at the federal, state, and municipal levels.</figcaption>
                     </figure>
 
