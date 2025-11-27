@@ -7,6 +7,7 @@ import About from './pages/About';
 import Resume from './pages/Resume';
 import Articles from './pages/Articles';
 import Works from './pages/Works';
+import Search from './pages/Search'; // NOVA IMPORTAÇÃO
 import './styles/global.css';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="/resume" element={<Resume />} />
           <Route path="/articles" element={<Articles />} />
           <Route path="/works" element={<Works />} />
+          <Route path="/search" element={<Search />} /> {/* NOVA ROTA */}
         </Routes>
         
         <Footer />

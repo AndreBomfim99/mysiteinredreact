@@ -172,3 +172,47 @@ body {
     margin: 0;
     padding: 0;
 }
+
+/* Adicione isso ao arquivo src/pages/Home.css ou crie um Search.css separado */
+
+.search-results {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.search-result-item {
+  padding: 1.5rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  border-left: 4px solid #cc0000;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.search-result-item:hover {
+  transform: translateX(5px);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-result-item h3 {
+  margin: 0 0 0.5rem 0;
+  color: #990000;
+  font-size: 1.3rem;
+}
+
+.search-result-item h3 a {
+  color: #990000;
+  text-decoration: none;
+}
+
+.search-result-item h3 a:hover {
+  color: #cc0000;
+  text-decoration: underline;
+}
+
+.search-result-item p {
+  margin: 0;
+  color: #555;
+  line-height: 1.6;
+}
